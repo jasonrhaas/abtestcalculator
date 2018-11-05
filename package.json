@@ -3,43 +3,58 @@
   "version": "1.0.0",
   "description": "A visual A/B test significance calculator",
   "main": "js/main.js",
-  "dependencies": {
-    "is-integer": "^1.0.3",
-    "lodash.isempty": "^3.0.0",
-    "numeral": "^1.5.3",
-    "react": "^0.12.2",
-    "react-zeroclipboard": "^0.3.1"
+  "directories": {
+    "test": "test"
   },
-  "devDependencies": {
-    "assert": "^1.3.0",
-    "babel": "^4.4.5",
-    "babelify": "^5.0.3",
-    "beepbeep": "^1.2.0",
-    "browserify": "^8.0.3",
-    "del": "^1.1.1",
-    "event-stream": "^3.2.1",
-    "gulp": "^3.8.11",
-    "gulp-concat": "^2.4.3",
-    "gulp-gh-pages": "^0.4.0",
-    "gulp-jshint": "^1.9.0",
-    "gulp-react": "^2.0.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^1.2.4",
-    "gulp-spawn-mocha": "^2.0.1",
-    "gulp-streamify": "^0.0.5",
-    "gulp-template": "^2.1.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.2",
-    "lodash": "^2.4.1",
-    "reactify": "^0.17.1",
-    "run-sequence": "^1.0.2",
-    "vinyl-source-stream": "^1.0.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/mattm/abtestcalculator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattm/abtestcalculator.git"
+    "url": "git+https://github.com/mattm/abtestcalculator.git"
   },
-  "author": "Matt Mazur <matthew.h.mazur@gmail.com> (http://mattmazur.com)",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattm/abtestcalculator/issues"
+  },
+  "homepage": "https://github.com/mattm/abtestcalculator#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "is-integer": "^1.0.7",
+    "lodash.isempty": "^4.4.0",
+    "numeral": "^2.0.6",
+    "react": "^16.6.0",
+    "react-zeroclipboard": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "acorn": "^6.0.0",
+    "assert": "^1.4.1",
+    "babelify": "^10.0.0",
+    "beepbeep": "^1.2.2",
+    "browserify": "^16.2.3",
+    "del": "^3.0.0",
+    "event-stream": "^4.0.1",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jshint": "^2.1.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-spawn-mocha": "^5.0.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-template": "^5.0.0",
+    "gulp-uglify": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.6",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "reactify": "^1.1.1",
+    "run-sequence": "^2.2.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
